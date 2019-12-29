@@ -183,7 +183,7 @@ int main(void) {
 		    Lcd_Yaz("Kocaeli Uni");
 		    for(delay=0;delay<4800000;delay++); //2 saniyelik bekleme
 		    imlec(2,2);				//2. satır 2. sutuna yazdırıyoruz
-		    Lcd_Yaz("Mehmet Emin Oz");
+		    Lcd_Yaz("Arda Cicin");
 		}
 		if(kosul==1){	 //Beyaz Led çalışıyor
 			kosul2=1;
@@ -192,7 +192,7 @@ int main(void) {
 			GPIO_PORTE_DATA_R &= ~0b00000100;
 			GPIO_PORTE_DATA_R &= ~0b00001000;
 			imlec(1,2);
-			Lcd_Yaz("Mehmet Emin Oz");
+			Lcd_Yaz("Arda Cicin");
 			for(delay=0;delay<4800000;delay++);
 			imlec(2,3);
 			Lcd_Yaz("Kocaeli Uni");
@@ -243,70 +243,57 @@ int main(void) {
 			Lcd_Yaz("Kocaeli Uni");
 			for(delay=0;delay<4800000;delay++);
 			/*imlec(2,1);
-			Lcd_Yaz("z");
+			Lcd_Yaz("n");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("Oz");
+			Lcd_Yaz("in");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz(" Oz");
+			Lcd_Yaz("cin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("n Oz");
+			Lcd_Yaz("icin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("in Oz");
+			Lcd_Yaz("Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("min Oz");
+			Lcd_Yaz(" Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("Emin Oz");
+			Lcd_Yaz("a Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz(" Emin Oz");
+			Lcd_Yaz("da Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("t Emin Oz");
+			Lcd_Yaz("rda Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("et Emin Oz");
+			Lcd_Yaz("Arda Cicin");
 			for(delay=0;delay<1000000;delay++);
-			Lcd_Temizle();
-			imlec(2,1);
-			Lcd_Yaz("met Emin Oz");
-			for(delay=0;delay<1000000;delay++);
-			Lcd_Temizle();
-			imlec(2,1);
-			Lcd_Yaz("hmet Emin Oz");
-			for(delay=0;delay<1000000;delay++);
-			Lcd_Temizle();
-			imlec(2,1);
-			Lcd_Yaz("ehmet Emin Oz");
-			for(delay=0;delay<1000000;delay++);
-			Lcd_Temizle();
-			imlec(2,1);*/
+			Lcd_Temizle();*/
 			for(i=1;i<16;i++){
 				imlec(1,3);
 				Lcd_Yaz("Kocaeli Uni");
 				imlec(2,i);
-				Lcd_Yaz("Mehmet Emin Oz");
+				Lcd_Yaz("Arda Ciçin");
 				for(delay=0;delay<1000000;delay++);
 				Lcd_Temizle();
 			}
 			imlec(1,3);
 			Lcd_Yaz("Kocaeli Uni");
 			imlec(2,2);
-			Lcd_Yaz("Mehmet Emin Oz");
+			Lcd_Yaz("Arda Cicin");
 		}
 		if(kosul==3){
 			kosul2=3;
@@ -359,68 +346,56 @@ int main(void) {
 				imlec(1,3);
 				Lcd_Yaz("Kocaeli Uni");
 				imlec(2,i);
-				Lcd_Yaz("Mehmet Emin Oz");
+				Lcd_Yaz("Arda Cicin");
 				for(delay=0;delay<1000000;delay++);
 				Lcd_Temizle();
 			}
 
 			/*imlec(2,1);
-			Lcd_Yaz("ehmet Emin Oz");
+			Lcd_Yaz("rda Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("hmet Emin Oz");
+			Lcd_Yaz("da Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("met Emin Oz");
+			Lcd_Yaz("a Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("et Emin Oz");
+			Lcd_Yaz(" Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("t Emin Oz");
+			Lcd_Yaz("Cicin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz(" Emin Oz");
+			Lcd_Yaz("icin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("Emin Oz");
+			Lcd_Yaz("cin");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("min Oz");
+			Lcd_Yaz("in");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("in Oz");
+			Lcd_Yaz("n");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();
 			imlec(2,1);
-			Lcd_Yaz("n Oz");
-			for(delay=0;delay<1000000;delay++);
-			Lcd_Temizle();
-			imlec(2,1);
-			Lcd_Yaz(" Oz");
-			for(delay=0;delay<1000000;delay++);
-			Lcd_Temizle();
-			imlec(2,1);
-			Lcd_Yaz("Oz");
-			for(delay=0;delay<1000000;delay++);
-			Lcd_Temizle();
-			imlec(2,1);
-			Lcd_Yaz("z");
+			Lcd_Yaz("");
 			for(delay=0;delay<1000000;delay++);
 			Lcd_Temizle();*/
 
 			imlec(1,3);
 			Lcd_Yaz("Kocaeli Uni");
 			imlec(2,2);
-			Lcd_Yaz("Mehmet Emin Oz");
+			Lcd_Yaz("Arda Cicin");
 		}
 		for(delay=0;delay<7200000;delay++);		//Led yanıp işlemi bittikten sonra 3 saniye
 		Lcd_Temizle();		//Ekranı temizler   //beklemesini sağlayan kod
